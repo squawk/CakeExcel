@@ -59,7 +59,7 @@ class ExcelViewTest extends TestCase
         $output = $this->View->render('index');
         $this->assertSame('504b030414', bin2hex(substr($output, 0, 5)));
 
-        $result = $this->View->PhpExcel->getActiveSheet()->getCellByColumnAndRow(0, 0)->getValue();
+        $result = $this->View->Spreadsheet->getActiveSheet()->getCellByColumnAndRow(0, 0)->getValue();
         $this->assertEquals('Test string', $result);
     }
 
