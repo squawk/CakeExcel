@@ -9,9 +9,9 @@ A plugin to generate Excel files with CakePHP.
 
 ## Requirements
 
-* CakePHP 3.x
-* PHP 5.4.16 or greater
-* Patience
+-   CakePHP 3.x
+-   PHP 5.4.16 or greater
+-   Patience
 
 ## Installation
 
@@ -48,7 +48,7 @@ public $components = [
 ];
 ```
 
-Each application *must* have an xlsx layout. The following is a barebones layout that can be placed in `src/Template/Layout/xlsx/default.ctp`:
+Each application _must_ have an xlsx layout. The following is a barebones layout that can be placed in `src/Template/Layout/xlsx/default.ctp`:
 
 ```php
 <?= $this->fetch('content') ?>
@@ -60,7 +60,7 @@ Finally, you can link to the current page with the .xlsx extension. This assumes
 $this->Html->link('Excel file', ['_ext' => 'xlsx']);
 ```
 
-Inside your view file you will have access to the PHPExcel library with `$this->PhpExcel`. Please see the [PHPExcel](https://github.com/PHPOffice/PHPExcel) documentation for a guide on how to use PHPExcel.
+Inside your view file you will have access to the PHPSpreadsheet library with `$this->Spreadsheet`. Please see the [PHPSpreadsheet](https://github.com/PHPOffice/PHPSpreadsheet) documentation for a guide on how to use PHPSpreadsheet.
 
 ## License
 

@@ -1,14 +1,13 @@
 {
-    "name": "dakota/cake-excel",
+    "name": "squawk/cake-excel",
     "type": "cakephp-plugin",
     "description": "CakePHP excel generator",
     "keywords": [
         "cakephp",
-        "dakota",
         "excel",
-        "phpexcel"
+        "phpspreadsheet"
     ],
-    "homepage": "https://github.com/dakota/CakeExcel",
+    "homepage": "https://github.com/squawk/CakeExcel",
     "license": "MIT",
     "authors": [
         {
@@ -18,14 +17,14 @@
     ],
     "modifier": [
         {
-            "name": "Daren Sipes",
-            "email": "daren@sipes.me"
+            "name": "Brad Van Skyhawk",
+            "email": "brad.vanskyhawk@fidello.com"
         }
     ],
     "require": {
         "php": ">=5.4.16",
         "cakephp/cakephp": "~3.1",
-        "phpoffice/phpexcel": "~1.8"
+        "phpoffice/phpspreadsheet": "^1.9"
     },
     "require-dev": {
         "phpunit/phpunit": "4.1.*"
@@ -42,7 +41,7 @@
         }
     },
     "support": {
-        "issues": "https://github.com/dakota/CakeExcel/issues",
-        "source": "https://github.com/dakota/CakeExcel"
+        "issues": "https://github.com/squawk/CakeExcel/issues",
+        "source": "https://github.com/squawk/CakeExcel"
     }
 }
